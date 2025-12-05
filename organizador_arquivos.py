@@ -13,7 +13,7 @@ for arq in lista_arq:
         if tip in tipos_arq[pasta]:
             if not os.path.exists(f'{guia}/{pasta}'):
                 os.mkdir(f'{guia}/{pasta}')
-            os.rename(f'{guia}/{arq}', f'{guia}/{pasta}/{arq}')
+            os.rename(f'{guia}/{arq}', f'{guia}/{pasta}/{arq}') 
 
 
 
