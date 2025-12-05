@@ -1,6 +1,5 @@
 import os
 from tkinter.filedialog import askdirectory
-
 guia = askdirectory(title='')
 lista_arq = os.listdir(guia)
 tipos_arq = {'imagens': ['.png', '.jpg', '.jpeg'],
